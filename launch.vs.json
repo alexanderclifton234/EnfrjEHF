@@ -4,7 +4,6 @@
       "type" : "default",
       "project" : "CMakeLists.txt",
       "projectTarget" : "goalc-test.exe (bin\\goalc-test.exe)",
-      "name" : "Tests - Unit-Tests - Summary",
       "args" : ["--gtest_brief=1"]
     },
     {
@@ -23,7 +22,6 @@
     },
     {
       "type" : "default",
-      "project" : "CMakeLists.txt",
       "projectTarget" : "goalc-test.exe (bin\\goalc-test.exe)",
       "name" : "Tests - TypeConsistency - Verbose",
       "args" : ["--gtest_brief=0", "--gtest_filter=\"*TypeConsistency*\""]
